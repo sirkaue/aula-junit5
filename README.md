@@ -29,7 +29,7 @@ O projeto está estruturado da seguinte forma:
 - **test/java/entity/**:
   - **AccountTests.java**: Este arquivo contém os testes unitários para a classe `Account`. Ele utiliza o framework JUnit 5 para criar e executar testes que validam o comportamento e os métodos da classe `Account`.
   
-- **test/java/entity/factory/**: Este diretório contém os testes unitários da aplicação.
+- **test/java/entity/factory/**:
   - **AccountFactory.java**: Classe que implementa uma fábrica (`factory`) para criar instâncias de `Account` nos testes.
 
 
