@@ -1,7 +1,7 @@
 
-# JUnit5 Repositório Prático
+# Repositório Prático JUnit 5
 
-Este repositório contém exemplos de testes unitários utilizando a biblioteca JUnit5 em Java. O objetivo é praticar a criação de testes automatizados para garantir a qualidade do código. Além disso, um padrão Factory é utilizado para facilitar a criação de objetos de teste.
+Este repositório contém exemplos de testes unitários utilizando a biblioteca JUnit 5 em Java. O objetivo é praticar a criação de testes automatizados para garantir a qualidade do código. Além disso, utiliza-se o padrão Factory para facilitar a criação de objetos de teste.
 
 ## Estrutura do Projeto
 
@@ -15,18 +15,23 @@ O projeto está estruturado da seguinte forma:
 │               └── Account.java
 └── test
     └── java
-        └── entity
-            └── factory
-                └── AccountFactory.java
+        ├── entity
+        │   └── AccountTests.java
+        └── factory
+            └── AccountFactory.java
 ```
 ### Descrição dos Diretórios e Arquivos
 
 
 - **src/main/java/entity/**: Este diretório contém o código-fonte principal da aplicação.
-    - **Account.java**: Classe que representa a entidade `Account`.
+  - **Account.java**: Classe que representa a entidade `Account`.
 
+- **test/java/entity/**:
+  - **AccountTests.java**: Este arquivo contém os testes unitários para a classe `Account`. Ele utiliza o framework JUnit 5 para criar e executar testes que validam o comportamento e os métodos da classe `Account`.
+  
 - **test/java/entity/factory/**: Este diretório contém os testes unitários da aplicação.
-    - **AccountFactory.java**: Classe que implementa uma fábrica (`factory`) para criar instâncias de `Account` nos testes.
+  - **AccountFactory.java**: Classe que implementa uma fábrica (`factory`) para criar instâncias de `Account` nos testes.
+
 
 ## Dependências
 
